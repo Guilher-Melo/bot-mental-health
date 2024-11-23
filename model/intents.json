@@ -1,0 +1,188 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Olá",
+                "Oi",
+                "oi",
+                "olá",
+                "Boa tarde",
+                "Bom dia",
+                "boa noite",
+                "Oi, tudo bem?"
+            ],
+            "responses": [
+                "Olá! Como posso ajudá-lo hoje?",
+                "Oi, estou aqui para te escutar e te orientar. Como você está se sentindo?",
+                "Bom te ver! O que você gostaria de conversar hoje?"
+            ]
+        },
+        {
+            "tag": "depression",
+            "patterns": [
+                "Eu me sinto triste",
+                "Estou deprimido",
+                "Não consigo me concentrar",
+                "Perdi o ânimo",
+                "Não tenho vontade de fazer nada",
+                "ando desanimado",
+                "sinto muita tristeza"
+            ],
+            "responses": [
+                "Entendo que você esteja passando por um momento difícil. A depressão é uma condição muito comum e nada para se envergonhar. Existem diversas formas de lidar com ela, como terapia, medicamentos e exercícios.",
+                "Sinto muito que você esteja se sentindo assim. A depressão pode ser muito pesada, mas você não está sozinho. Existem tratamentos eficazes disponíveis que podem te ajudar a se sentir melhor.",
+                "Sinto muito por você estar passando por isso. Lembre-se de que não está sozinho e há pessoas que se preocupam com você.",
+                "Pode ser difícil agora, mas você é importante e merece se sentir melhor. Que tal dar um pequeno passo hoje, como conversar com alguém de confiança?",
+                "Sentir-se assim é desafiador. Tente lembrar que buscar ajuda, como falar com um terapeuta, pode fazer uma grande diferença.",
+                "Estou aqui para ouvir e apoiar você da melhor forma possível. Não hesite em compartilhar como está se sentindo.",
+                "Mesmo nos dias mais difíceis, pequenos atos como respirar profundamente ou sair para tomar um pouco de sol podem ajudar um pouco.",
+                "Se isso estiver persistindo, considere procurar um profissional de saúde mental. Eles podem oferecer o suporte que você precisa.",
+                "Você é mais forte do que imagina, mesmo que não pareça agora. Estou aqui para ajudar no que puder."
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "Eu me sinto muito ansioso",
+                "Tenho ataques de pânico",
+                "Fico preocupado o tempo todo",
+                "Meu coração dispara com facilidade",
+                "Não consigo controlar meus pensamentos",
+                "Tenho crises de ansiedade"
+            ],
+            "responses": [
+                "Entendo que a ansiedade pode ser muito angustiante. Existem maneiras de aprender a lidar melhor com ela, como técnicas de respiração, terapia e até mesmo medicamentos.",
+                "A ansiedade pode ser muito desgastante, mas você não precisa enfrentá-la sozinho. Há diversas opções de tratamento disponíveis que podem te ajudar a se sentir mais no controle.",
+                "Ansiedade pode ser muito desconfortável, mas estou aqui para ajudar. Que tal tentar respirar profundamente? Inspire pelo nariz contando até 4, segure por 4 segundos e expire lentamente pela boca contando até 6.",
+                "Se possível, concentre-se no momento presente. Olhe ao seu redor e identifique 5 coisas que você vê, 4 que pode tocar, 3 que pode ouvir, 2 que pode cheirar e 1 que pode saborear.",
+                "Às vezes, escrever seus pensamentos em um papel pode ajudar a organizá-los e aliviar um pouco a pressão. Você já tentou isso antes?",
+                "Lembre-se de que esses sentimentos não definem você. Falar com alguém de confiança ou um terapeuta pode ajudar a aliviar o peso.",
+                "Ansiedade pode ser muito intensa, mas práticas como meditação guiada ou atividades físicas leves podem ajudar a acalmar a mente.",
+                "Estou aqui para apoiar você. Caso isso continue te incomodando, considere buscar um profissional de saúde mental. Eles podem ajudar muito.",
+                "Você está fazendo o seu melhor e isso é algo para se orgulhar. Pequenos passos contam, mesmo quando parecem insignificantes."
+            ]
+        },
+        {
+            "tag": "suicidal_thoughts",
+            "patterns": [
+                "Eu não aguento mais",
+                "Quero acabar com tudo",
+                "Não vejo mais sentido na vida",
+                "Penso em me machucar",
+                "Quero morrer"
+            ],
+            "responses": [
+                "Eu entendo que você esteja passando por um momento muito difícil. Pensamentos suicidas são um sinal de que você está sofrendo profundamente e precisa de ajuda. Você não está sozinho. Existem linhas de apoio e profissionais especializados que podem te escutar e te ajudar a encontrar saídas. Entre em contato com o CVV pelo número 188.",
+                "Se estiver em uma emergência, entre em contato com o CVV pelo número 188 ou procure o centro de saúde mais próximo.",
+                "Você não está sozinho. Ligue para o 188 ou procure um profissional de saúde o quanto antes.",
+                "Fique tranquilo, há ajuda disponível. Ligue para serviços de emergência pelo número 188 ou peça apoio a alguém de confiança."
+            ]
+        },
+        {
+            "tag": "therapy_types",
+            "patterns": [
+                "Quais tipos de terapia existem?",
+                "Me fale sobre os diferentes tipos de terapia",
+                "Quais são as principais abordagens terapêuticas?"
+            ],
+            "responses": [
+                "Existem várias abordagens terapêuticas, cada uma com suas características únicas. Alguns dos principais tipos incluem: Terapia Cognitivo-Comportamental (TCC), Psicanálise, Terapia Humanista, Terapia Sistêmica, Terapia Integrativa e Terapia Somática.",
+                "Cada tipo de terapia tem um foco diferente: a TCC trabalha padrões de pensamento, a psicanálise explora o inconsciente, a terapia humanista foca no potencial individual, e a terapia sistêmica aborda relações familiares e sociais."
+            ]
+        },
+        {
+            "tag": "cognitive_behavioral_therapy",
+            "patterns": [
+                "O que é terapia cognitivo-comportamental?",
+                "Como funciona a TCC?",
+                "Quais problemas a TCC pode tratar?",
+                "me fale sobre a terapia tcc"
+            ],
+            "responses": [
+                "A Terapia Cognitivo-Comportamental (TCC) é uma abordagem focada em identificar e modificar padrões de pensamento e comportamento que contribuem para problemas emocionais.",
+                "Na TCC, você aprende a reconhecer pensamentos negativos ou distorcidos e desenvolver estratégias para substituí-los por pensamentos mais realistas e construtivos.",
+                "A TCC é especialmente eficaz para tratar condições como depressão, ansiedade, transtornos de estresse, fobias e alguns transtornos alimentares."
+            ]
+        },
+        {
+            "tag": "psychoanalysis",
+            "patterns": [
+                "Como funciona a psicanálise?",
+                "O que é psicanálise?",
+                "Qual a diferença entre psicanálise e psicoterapia?"
+            ],
+            "responses": [
+                "A psicanálise é uma abordagem terapêutica que explora como experiências passadas, especialmente da infância, influenciam comportamentos e emoções atuais.",
+                "Na psicanálise, o terapeuta ajuda você a explorar seu inconsciente, identificando padrões de pensamento e comportamento profundamente enraizados.",
+                "Diferente de outras terapias mais curtas, a psicanálise geralmente é um processo mais longo e aprofundado, focado em compreender as raízes emocionais dos problemas."
+            ]
+        },
+        {
+            "tag": "choosing_therapy",
+            "patterns": [
+                "Qual terapia é melhor para mim?",
+                "Como escolher o tipo certo de terapia?",
+                "Qual terapia devo fazer?"
+            ],
+            "responses": [
+                "Não existe uma terapia universalmente 'melhor'. A escolha depende de suas necessidades individuais, tipo de problema, personalidade e objetivos pessoais.",
+                "Um profissional de saúde mental pode te ajudar a identificar a abordagem mais adequada após uma avaliação inicial.",
+                "Fatores como o tipo de problema que você enfrenta, sua disposição para explorar questões emocionais e seu estilo de aprendizado podem influenciar a escolha da terapia mais apropriada."
+            ]
+        },
+        {
+            "tag": "self_care",
+            "patterns": [
+                "Como posso me cuidar melhor?",
+                "O que eu posso fazer para me sentir melhor?",
+                "Dicas de autocuidado",
+                "quero me sentir melhor"
+            ],
+            "responses": [
+                "O autocuidado é essencial para a saúde mental. Algumas dicas importantes incluem: praticar exercícios regularmente, manter uma alimentação saudável, ter momentos de lazer e relaxamento, cultivar relacionamentos saudáveis, e reservar tempo para atividades que te tragam prazer.",
+                "Cuidar de si mesmo de maneira consistente pode fazer uma grande diferença no seu bem-estar. Algumas ótimas práticas de autocuidado incluem: dormir bem, se hidratar, se movimentar, ter momentos de meditação ou mindfulness, e dedicar tempo a hobbies e atividades que você aprecia.",
+                "Entendo como pode ser difícil. Que tal tentar algo simples, como respirar fundo por alguns minutos?",
+                "Exercícios físicos leves, como uma caminhada, podem ajudar bastante.",
+                "Ouvir uma música que você goste ou escrever sobre seus sentimentos pode ser um bom começo.",
+                "Lembre-se de ser gentil consigo mesmo. Você já está dando um passo positivo ao buscar ajuda."
+            ]
+        },
+        {
+            "tag": "crisis_support",
+            "patterns": [
+                "Eu preciso de ajuda agora",
+                "Estou em crise",
+                "Onde posso procurar ajuda de emergência?",
+                "Quero me matar"
+            ],
+            "responses": [
+                "Entendo que você esteja passando por um momento de crise. Isso é uma situação muito séria e você precisa de ajuda imediata. Existem linhas de apoio e serviços de emergência disponíveis 24 horas por dia que podem lhe dar o suporte de que você precisa neste momento. Se estiver em uma emergência, entre em contato com o CVV pelo número 188 ou procure o centro de saúde mais próximo."
+            ]
+        },
+        {
+            "tag": "general_advice",
+            "patterns": [
+                "Dicas gerais de saúde mental",
+                "Como lidar com problemas emocionais?"
+            ],
+            "responses": [
+                "Algumas dicas gerais importantes para a saúde mental incluem: cultivar uma rotina saudável com sono, alimentação e exercícios; se conectar com amigos e familiares; praticar técnicas de relaxamento como meditação; identificar e gerenciar o estresse; e buscar ajuda profissional quando necessário.",
+                "Existem várias estratégias que podem ajudar a melhorar o seu bem-estar mental, como: ter uma alimentação equilibrada, fazer exercícios regularmente, reservar tempo para atividades prazerosas, praticar a gratidão, e estabelecer limites saudáveis."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Obrigado",
+                "Tchau",
+                "Até logo",
+                "Fico por aqui"
+            ],
+            "responses": [
+                "Fico feliz em ter podido ajudar! Cuide-se e lembre-se que estou aqui se você precisar conversar novamente.",
+                "Que bom que pude contribuir. Espero que você tenha um ótimo restante do dia. Até a próxima!"
+            ]
+        }
+    ]
+}
